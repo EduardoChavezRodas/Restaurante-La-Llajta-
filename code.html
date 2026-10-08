@@ -1,0 +1,513 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-primary": "#ffffff", "tertiary-container": "#448064", "surface-container-high": "#f9e4de", "on-secondary": "#ffffff", "surface-bright": "#fff8f6", "secondary-fixed-dim": "#ffb959", "on-error": "#ffffff", "error": "#ba1a1a", "primary": "#b51d04", "outline-variant": "#e4beb6", "error-container": "#ffdad6", "primary-fixed-dim": "#ffb4a6", "secondary": "#845400", "tertiary-fixed-dim": "#95d4b3", "surface-container-low": "#fff1ed", "surface-container": "#ffe9e4", "surface-dim": "#ebd6d0", "secondary-fixed": "#ffddb6", "background": "#fff8f6", "inverse-surface": "#3a2e2a", "on-secondary-container": "#6c4400", "surface-container-highest": "#f3ded8", "outline": "#907069", "surface-tint": "#b82007", "on-primary-fixed": "#3f0300", "tertiary": "#29674c", "on-background": "#241916", "on-primary-fixed-variant": "#8f1100", "on-tertiary-container": "#f5fff6", "on-secondary-fixed-variant": "#643f00", "secondary-container": "#ffae32", "on-tertiary-fixed": "#002114", "on-tertiary": "#ffffff", "inverse-primary": "#ffb4a6", "surface-variant": "#f3ded8", "surface": "#fff8f6", "on-surface-variant": "#5b403b", "primary-container": "#d9381e", "on-tertiary-fixed-variant": "#0e5138", "on-primary-container": "#fffcff", "primary-fixed": "#ffdad3", "inverse-on-surface": "#ffede8", "tertiary-fixed": "#b1f0ce", "on-surface": "#241916", "on-secondary-fixed": "#2a1800", "on-error-container": "#93000a", "surface-container-lowest": "#ffffff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1.5rem", "gutter-sm": "1rem", "margin": "3rem", "space-xl": "3.5rem", "space-sm": "0.75rem", "space-md": "1.25rem", "space-xs": "0.375rem", "space-lg": "2rem", "margin-mobile": "1.25rem" }, fontFamily: { "body-lg": ["Plus Jakarta Sans"], "title-dish": ["Playfair Display"], "headline-sm": ["Playfair Display"], "headline-lg": ["Playfair Display"], "price-tag": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "display-hero-mobile": ["Playfair Display"], "display-hero": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"] }, fontSize: { "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }], "title-dish": ["20px", { lineHeight: "26px", fontWeight: "700" }], "headline-sm": ["22px", { lineHeight: "28px", fontWeight: "600" }], "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "700" }], "price-tag": ["18px", { lineHeight: "22px", letterSpacing: "-0.01em", fontWeight: "700" }], "label-md": ["13px", { lineHeight: "18px", letterSpacing: "0.04em", fontWeight: "600" }], "headline-md": ["28px", { lineHeight: "36px", fontWeight: "600" }], "display-hero-mobile": ["36px", { lineHeight: "42px", letterSpacing: "-0.01em", fontWeight: "700" }], "display-hero": ["56px", { lineHeight: "64px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-md": ["15px", { lineHeight: "24px", fontWeight: "400" }], "headline-lg-mobile": ["28px", { lineHeight: "34px", fontWeight: "700" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_rgba(36,25,22,0.06)] pt-safe"><div class="flex flex-col border-b border-outline-variant/30"><div class="h-16 px-margin-mobile flex items-center justify-between gap-2"><div class="flex items-center gap-2.5 min-w-0"><img alt="Logo Sabor de la Llajta" class="h-9 w-9 object-contain flex-shrink-0 drop-shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMHjzcU0eoCvj4XLcG8_Fb7uc8tMzNXyUJ6QrpUaBqNre_LKfqsnt_-BB-5H6vXp560VPGbvFZfyeheO0N8fzcvjoSVpah8pLJUGQC1EcXP9He6U1z5Sjal_YrUnhuXjFDa3BRV4Rot-Wa3V5rPwAB9rvrXUEFduGGoG5ibKB9GCEb3ElJG_QQxsEZv6JdirE7teEskP6KU43PWyiXrYfMHA5rjE-Wlu06BRTungE"><div class="flex flex-col min-w-0"><span class="font-title-dish text-title-dish font-bold text-on-surface tracking-tight truncate leading-tight">Sabor de la Llajta</span><span class="font-label-sm text-label-sm text-secondary font-bold tracking-wide leading-none truncate">Tradición boliviana</span></div></div><div class="flex items-center gap-2 flex-shrink-0"><a class="min-h-[44px] px-4 py-2 flex items-center gap-1.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-[0_4px_14px_rgba(217,56,30,0.3)] hover:opacity-95 active:scale-95 transition-all" href="#menu-seccion"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span class="">Pedir Ahora</span></a></div></div><div class="overflow-x-auto flex items-center gap-2 px-margin-mobile pb-2 pt-0.5 scrollbar-none"><a class="flex-shrink-0 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold tracking-wide transition-all shadow-sm" href="#">Inicio</a><a class="flex-shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface hover:text-primary font-label-sm text-label-sm font-semibold tracking-wide transition-colors" href="#menu-seccion">Menú Tradicional</a><a class="flex-shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface hover:text-primary font-label-sm text-label-sm font-semibold tracking-wide transition-colors" href="#plato-estrella">Plato Estrella</a><a class="flex-shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface hover:text-primary font-label-sm text-label-sm font-semibold tracking-wide transition-colors" href="#promociones">Promociones</a><a class="flex-shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface hover:text-primary font-label-sm text-label-sm font-semibold tracking-wide transition-colors" href="#contacto">Ubicación</a></div></div></header><main class="flex flex-col relative w-full pb-28 bg-surface min-h-screen pt-28"><div class="flex flex-col w-full text-on-surface">
+<!-- HERO PRINCIPAL -->
+<section class="relative w-full px-margin-mobile pt-space-sm pb-space-lg flex flex-col gap-space-md">
+<!-- Visual Badge & Trust Pills -->
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/20 text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[15px] text-secondary">verified</span>
+        Receta tradicional de la Llajta
+      </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[15px] text-tertiary">check_circle</span>
+        100% Casero y abundante
+      </span>
+</div>
+<!-- Editorial Catchphrase -->
+<div class="flex flex-col gap-2">
+<h1 class="font-display-hero-mobile text-display-hero-mobile text-on-surface leading-tight tracking-tight">
+        Fideos salteados, <span class="text-primary-container italic font-title-dish">sabor que conquista.</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Fideos dorados al wok, acompañados de tierna proteína y vegetales frescos, preparados al momento con nuestro toque especial.
+      </p>
+</div>
+<!-- Hero Food Showcase Image Card -->
+<div class="relative w-full rounded-xl overflow-hidden shadow-[0_16px_36px_rgba(36,25,22,0.12)] bg-surface-container">
+<img alt="Fideo Salteado Tradicional humeante recién preparado al wok" class="w-full h-72 object-cover object-center transform scale-100 hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7uilKX5ES_UdOwBg5KbZpikJ7DypQqx0yDiGYLX4-H7MZwQXohLPfhXI9BIHlCF8i5cEc1isM04TZmX2ufuXI1Ye-TcRwcJUYPuxaMQOfdpljiYzKiMBVvjqcQr1eu3WZjC4ynfNaM9GzRu3AIfG-bsFUV_1KK4QCQ5hQGBF0HXOF0SHvjeqAdD2DcTQE6nWR44kg-SZz1Qte9U1lW2Cmu9jtD8xEkV0B_1LSIC4">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-black/10"></div>
+<!-- Steaming Fresh Badge -->
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-primary text-[18px] animate-pulse">local_fire_department</span>
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Hecho al momento</span>
+</div>
+<!-- Live Portion Tag -->
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-on-primary">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim animate-ping"></span>
+<span class="font-label-sm text-label-sm tracking-wide drop-shadow">Especialidad Cochabambina</span>
+</div>
+<span class="font-price-tag text-price-tag text-secondary-fixed bg-inverse-surface/70 px-3 py-1 rounded-full backdrop-blur-sm">Bs. 30</span>
+</div>
+</div>
+<!-- Action CTA Group -->
+<div class="grid grid-cols-2 gap-3 pt-1">
+<a class="min-h-[48px] px-4 flex items-center justify-center gap-2 rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-sm active:scale-95 transition-all text-center" href="#menu-seccion">
+<span class="material-symbols-outlined text-[18px]">restaurant_menu</span>
+        Ver menú
+      </a>
+<a class="min-h-[48px] px-4 flex items-center justify-center gap-2 rounded-full bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-[0_6px_20px_rgba(217,56,30,0.35)] active:scale-95 transition-all text-center" href="#pedir-ahora">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+        Pedir ahora
+      </a>
+</div>
+</section>
+<!-- PLATO ESTRELLA (Fideo Salteado de la Casa) -->
+<section class="w-full px-margin-mobile py-space-md" id="plato-estrella">
+<div class="w-full rounded-xl bg-surface-container-lowest p-space-md shadow-[0_12px_32px_-4px_rgba(36,25,22,0.08)] flex flex-col gap-space-sm relative overflow-hidden">
+<!-- Glow decoration -->
+<div class="absolute -top-16 -right-16 w-36 h-36 rounded-full bg-secondary-fixed/30 blur-2xl pointer-events-none"></div>
+<!-- Header Ribbon -->
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px] text-secondary">star</span>
+          Plato Estrella de la Casa
+        </span>
+<span class="font-label-sm text-label-sm text-tertiary font-bold tracking-wide flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">timer</span> 12 min
+        </span>
+</div>
+<!-- Plate Feature Image -->
+<div class="w-full h-56 rounded-lg overflow-hidden relative shadow-inner bg-surface-container-low">
+<img alt="Fideo salteado tradicional de la abuela en paila caliente" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7uilKX5ES_UdOwBg5KbZpikJ7DypQqx0yDiGYLX4-H7MZwQXohLPfhXI9BIHlCF8i5cEc1isM04TZmX2ufuXI1Ye-TcRwcJUYPuxaMQOfdpljiYzKiMBVvjqcQr1eu3WZjC4ynfNaM9GzRu3AIfG-bsFUV_1KK4QCQ5hQGBF0HXOF0SHvjeqAdD2DcTQE6nWR44kg-SZz1Qte9U1lW2Cmu9jtD8xEkV0B_1LSIC4">
+<div class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1 rounded-full shadow-md flex items-center gap-1">
+<span class="text-primary font-label-sm text-label-sm">⭐⭐⭐⭐⭐</span>
+<span class="text-on-surface font-label-sm text-label-sm font-bold">4.9</span>
+</div>
+</div>
+<!-- Title & Content -->
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-baseline justify-between">
+<h2 class="font-title-dish text-title-dish text-on-surface">Fideo Salteado Tradicional</h2>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Bs. 30</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Fideos seleccionados tostados y salteados al wok a fuego vivo, jugosas tiras de carne o pollo, cebolla morada, tomate jugoso, pimentones crujientes y cebollín fresco, infusionados con el sazón secreto de la abuela.
+        </p>
+</div>
+<!-- Quick Feature Tags -->
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Fuego vivo de wok</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Carne / Pollo jugoso</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Incluye llajwa</span>
+</div>
+<!-- Direct Add CTA -->
+<button class="w-full min-h-[48px] mt-2 rounded-full bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-[0_6px_18px_rgba(217,56,30,0.3)] hover:opacity-95 active:scale-95 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">soup_kitchen</span>
+        Pedir este plato
+      </button>
+</div>
+</section>
+<!-- MENÚ BOLIVIANO -->
+<section class="w-full px-margin-mobile py-space-md flex flex-col gap-space-md" id="menu-seccion">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-6 h-0.5 bg-primary"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Gastronomía Ancestral</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Nuestro Menú Tradicional</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Sabores contundentes, porciones generosas y el aroma inconfundible de Cochabamba.</p>
+</div>
+<!-- Dish Grid Mobile (Single Column Stack) -->
+<div class="flex flex-col gap-4">
+<!-- Plato 1: Fideo Salteado -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-[0_6px_20px_rgba(36,25,22,0.06)] flex gap-3.5 items-center">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img alt="Fideos tostados al wok con tierna proteína y vegetales frescos" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7uilKX5ES_UdOwBg5KbZpikJ7DypQqx0yDiGYLX4-H7MZwQXohLPfhXI9BIHlCF8i5cEc1isM04TZmX2ufuXI1Ye-TcRwcJUYPuxaMQOfdpljiYzKiMBVvjqcQr1eu3WZjC4ynfNaM9GzRu3AIfG-bsFUV_1KK4QCQ5hQGBF0HXOF0SHvjeqAdD2DcTQE6nWR44kg-SZz1Qte9U1lW2Cmu9jtD8xEkV0B_1LSIC4">
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div>
+<h3 class="font-title-dish text-[17px] leading-snug text-on-surface truncate">Fideo Salteado</h3>
+<p class="font-body-md text-label-sm text-on-surface-variant line-clamp-2 mt-0.5">
+              Fideos tostados al wok con tierna proteína y vegetales frescos.
+            </p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-price-tag text-price-tag text-primary">Bs. 30</span>
+<button class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm active:scale-95 transition-all flex items-center gap-1">
+<span class="">Pedir</span>
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Plato 2: Pique Macho -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-[0_6px_20px_rgba(36,25,22,0.06)] flex gap-3.5 items-center">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Traditional Bolivian Pique Macho dish served in an authentic clay platter, featuring sauteed tender beef strips, sausages, crispy french fries, boiled egg wedges, fresh spicy locoto peppers, sliced onions, and juicy tomatoes under warm restaurant lighting with a rustic tablecloth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJWT92xNdIkFEzurOR-cTPXlw6-OJbzWr4kelylzvODTVpaHsS5XBcpGuuf75OxBf_-CkSYywoZARkQ_y4HOQhMyCoytLRVAM23vDAFE_-qugB0hkZFIMHObCFU-Dlp6JJNlpyGboDnDTZuMgWKlGF2OxqOFv5A2t20lEdVHrgnsUJjKtgF48XhCV8j1plX7Qy-gtGBzGzsloECOrHHRZwBTi5Oxl9MUBXB2sYnqU">
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div>
+<h3 class="font-title-dish text-[17px] leading-snug text-on-surface truncate">Pique Macho</h3>
+<p class="font-body-md text-label-sm text-on-surface-variant line-clamp-2 mt-0.5">
+              Lomo salteado, salchichas, papas fritas crocantes, huevo, locoto y tomate.
+            </p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-price-tag text-price-tag text-primary">Bs. 40</span>
+<button class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm active:scale-95 transition-all flex items-center gap-1">
+<span class="">Pedir</span>
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Plato 3: Majadito -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-[0_6px_20px_rgba(36,25,22,0.06)] flex gap-3.5 items-center">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Traditional Bolivian Majadito de charque, toasted reddish savory rice with shredded dehydrated beef, paired with golden fried sweet plantains and a sunny-side-up fried egg on top, served in a ceramic rustic bowl with vibrant fresh garnishes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBi_h8rUcTePczp_c0I-9n0bArmSptQDjP_By6V2bMyxjpgr5Ct-mkGuE7BSP7volmY825NiFESVkOLYo0_Ggw6VBMbXBdYfKlprzVx2fL9xC1ZxCQHd0SEssYo43SUd-5dziv1F5OayZLLTg5h5CBWRXXtf4L2aXI3DRqbwB-KUHrfau0R4CMmrvvYV51C13IeXofsE_GPTiVb-ivIF57K3I_qlmU4es8w2375u4Y">
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div>
+<h3 class="font-title-dish text-[17px] leading-snug text-on-surface truncate">Majadito</h3>
+<p class="font-body-md text-label-sm text-on-surface-variant line-clamp-2 mt-0.5">
+              Arroz tostado con charque desmenuzado, plátano dulce frito y huevo frito al punto.
+            </p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-price-tag text-price-tag text-primary">Bs. 35</span>
+<button class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm active:scale-95 transition-all flex items-center gap-1">
+<span class="">Pedir</span>
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Plato 4: Silpancho -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-[0_6px_20px_rgba(36,25,22,0.06)] flex gap-3.5 items-center">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Bolivian Silpancho dish displaying a giant breaded thin beef schnitzel layered over white rice and golden fried round potatoes, crowned with two sunny side up eggs and fresh diced tomato and onion kallu salsa in warm earthy restaurant atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE1n2B8lAPPzPoCyzKjVzHQOgQXZdG1NqLFdSVt-am_IABm1wtDrMNGLfLuypROL_ApYRJdwBpQtG1FkbDmR5IRYE-6Lv_5clP7n_zYXJHHqOk6FIBesXRBScx82xeFgS3NCfLA9rzMrEMuyqkPafV3TdfxjPtOM0oNeptx5EKy_P5GE901hnlisUh9-eeqovuWtou_-Jws15FJ1jasyGZXZM4uqyoRPafpluKUXU">
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div>
+<h3 class="font-title-dish text-[17px] leading-snug text-on-surface truncate">Silpancho</h3>
+<p class="font-body-md text-label-sm text-on-surface-variant line-clamp-2 mt-0.5">
+              Fina y tierna milanesa de res sobre arroz, papas doradas, huevo y salsa k'allu fresca.
+            </p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-price-tag text-price-tag text-primary">Bs. 35</span>
+<button class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm active:scale-95 transition-all flex items-center gap-1">
+<span class="">Pedir</span>
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Plato 5: Sopa de Maní -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-[0_6px_20px_rgba(36,25,22,0.06)] flex gap-3.5 items-center">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Steaming bowl of authentic Bolivian Sopa de Mani, creamy peanut broth with tender beef short rib, peas, carrots, topped with a generous crunchy mound of golden thin straw potatoes and fresh chopped parsley, rustic ceramic pottery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_qX9oJpTrw8in7-IBks3sazdbst0YMGfqOLx0BSVOtnaAcgt4CEHFKWFswCjuQvUSayW-HI26RmjG27YWyXDu-8a8SsrZDTq9fyTCBkVPpei7qaOAoqwxjq04SYoAIiw5WTtcTSPXroYp13zHyuyFIKbTYdnDo0rfFfpaSeW2p5ZWHylVp45QCXrJYavLlT452GVsRhzGd8gm5jlxew7cuy8ugoKiHCJd01WhMdE">
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div>
+<h3 class="font-title-dish text-[17px] leading-snug text-on-surface truncate">Sopa de Maní</h3>
+<p class="font-body-md text-label-sm text-on-surface-variant line-clamp-2 mt-0.5">
+              Pasta de maní puro, costillita jugosa, arvejas tiernas y papas hilo crujientes.
+            </p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-price-tag text-price-tag text-primary">Bs. 25</span>
+<button class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm active:scale-95 transition-all flex items-center gap-1">
+<span class="">Pedir</span>
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Plato 6: Chicharrón -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-3.5 shadow-[0_6px_20px_rgba(36,25,22,0.06)] flex gap-3.5 items-center">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Golden crisp Cochabambino Chicharron pieces of pork braised and crisp-fried in its own rendered fat, served with white boiled corn mote, baked potatoes, and spicy red llajwa sauce on an authentic rustic wooden tabletop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDavG8ZCyk1IxJ7Ry-RBWq-fA1uoisvaPabROSiGqILKoPmgabR_WB05aYHxgGZzoaRUQ3mip3NlcQ5dREbeO71aYzIwzDOzcdWc9-zGSeRCNelMknFYIjfc0uhytyv6EutSFHzoNeroe7mQ3Vc-QilJsOcp3rUwJFXJc9rc9QT8GV8qp56HYqSeD_EyAntVQ40K8bT3RHvB3K4y_9mudsGzrL1gG7QwCCiTJ_Ow64">
+</div>
+<div class="flex flex-col justify-between flex-grow min-w-0">
+<div>
+<h3 class="font-title-dish text-[17px] leading-snug text-on-surface truncate">Chicharrón</h3>
+<p class="font-body-md text-label-sm text-on-surface-variant line-clamp-2 mt-0.5">
+              Trozos de cerdo cocidos a fuego lento y dorados a la paila con mote y llajwa.
+            </p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<span class="font-price-tag text-price-tag text-primary">Bs. 40</span>
+<button class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm active:scale-95 transition-all flex items-center gap-1">
+<span class="">Pedir</span>
+<span class="material-symbols-outlined text-[14px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ¿POR QUÉ ELEGIRNOS? -->
+<section class="w-full px-margin-mobile py-space-md">
+<div class="rounded-xl bg-surface-container-low p-space-md flex flex-col gap-space-md shadow-sm">
+<div class="text-center flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-widest">Nuestra Promesa Culinaria</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">¿Por qué elegirnos?</h2>
+</div>
+<div class="flex flex-col gap-4">
+<!-- Beneficio 1 -->
+<div class="flex items-start gap-3.5 bg-surface-container-lowest p-3.5 rounded-lg shadow-[0_4px_12px_rgba(36,25,22,0.04)]">
+<div class="w-11 h-11 rounded-full bg-tertiary-fixed flex items-center justify-center flex-shrink-0 text-tertiary">
+<span class="material-symbols-outlined text-[24px]">eco</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-title-dish text-[16px] text-on-surface font-bold">Ingredientes frescos</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5 leading-snug">
+              Seleccionamos verduras del huerto y carnes frescas diariamente para garantizar el máximo sabor y nutrición.
+            </p>
+</div>
+</div>
+<!-- Beneficio 2 -->
+<div class="flex items-start gap-3.5 bg-surface-container-lowest p-3.5 rounded-lg shadow-[0_4px_12px_rgba(36,25,22,0.04)]">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center flex-shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[24px]">soup_kitchen</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-title-dish text-[16px] text-on-surface font-bold">Preparación casera</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5 leading-snug">
+              Respetamos las recetas milenarias de la Llajta, cocinando con dedicación y sazón auténtico de hogar.
+            </p>
+</div>
+</div>
+<!-- Beneficio 3 -->
+<div class="flex items-start gap-3.5 bg-surface-container-lowest p-3.5 rounded-lg shadow-[0_4px_12px_rgba(36,25,22,0.04)]">
+<div class="w-11 h-11 rounded-full bg-primary-fixed flex items-center justify-center flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-title-dish text-[16px] text-on-surface font-bold">Comida preparada al momento</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5 leading-snug">
+              Cada plato se saltea y se sirve recién salido de la sartén o paila, garantizando frescura y vapor caliente.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN ESPECIAL DEL FIDEO SALTEADO -->
+<section class="w-full px-margin-mobile py-space-md" id="promociones">
+<div class="relative w-full rounded-xl overflow-hidden bg-inverse-surface text-inverse-on-surface p-space-md shadow-xl flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1 z-10">
+<span class="inline-flex items-center gap-1 text-secondary-fixed font-label-sm text-label-sm uppercase font-bold tracking-widest">
+<span class="material-symbols-outlined text-[16px]">skillet</span>
+          Experiencia Wok Llajtamanta
+        </span>
+<h2 class="font-headline-sm text-headline-sm text-white">¿Ya probaste nuestro Fideo Salteado?</h2>
+<p class="font-body-md text-body-md text-surface-variant leading-relaxed">
+          El secreto está en el dorado exacto del fideo y el fuego vivo del salteado.
+        </p>
+</div>
+<!-- Feature Visual Card -->
+<div class="relative w-full h-52 rounded-lg overflow-hidden my-1 z-10 shadow-lg">
+<img alt="Primer plano de fideo salteado boliviano humeante con carne y cebollines" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7uilKX5ES_UdOwBg5KbZpikJ7DypQqx0yDiGYLX4-H7MZwQXohLPfhXI9BIHlCF8i5cEc1isM04TZmX2ufuXI1Ye-TcRwcJUYPuxaMQOfdpljiYzKiMBVvjqcQr1eu3WZjC4ynfNaM9GzRu3AIfG-bsFUV_1KK4QCQ5hQGBF0HXOF0SHvjeqAdD2DcTQE6nWR44kg-SZz1Qte9U1lW2Cmu9jtD8xEkV0B_1LSIC4">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 flex gap-2">
+<span class="px-2.5 py-1 rounded-full bg-secondary text-white font-label-sm text-label-sm">Porción abundante</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary text-white font-label-sm text-label-sm">Sabor inigualable</span>
+</div>
+</div>
+<!-- Price & Order Now -->
+<div class="flex items-center justify-between pt-1 z-10">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-surface-variant">Precio individual</span>
+<span class="font-headline-md text-headline-md text-secondary-fixed font-bold leading-none">Bs. 30</span>
+</div>
+<button class="min-h-[46px] px-6 rounded-full bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-[0_4px_16px_rgba(217,56,30,0.4)] active:scale-95 transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">shopping_cart_checkout</span>
+          Ordenar ahora
+        </button>
+</div>
+</div>
+</section>
+<!-- PROMOCIÓN DE LA CASA -->
+<section class="w-full px-margin-mobile py-space-md">
+<div class="w-full rounded-xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-highest p-space-md shadow-[0_10px_26px_rgba(181,29,4,0.12)] flex flex-col gap-3 relative overflow-hidden">
+<!-- Glow accent -->
+<div class="absolute -bottom-8 -right-8 w-28 h-28 rounded-full bg-primary-container/20 blur-xl pointer-events-none"></div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">local_fire_department</span>
+          Promoción de la Casa
+        </div>
+<span class="px-3 py-1 rounded-full bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm font-bold">
+          Ahorra Bs. 6
+        </span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-title-dish text-[22px] text-on-surface">Combo Llajta Completo</h3>
+<p class="font-headline-sm text-primary font-bold">Fideo Salteado + bebida refrescante</p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Acompaña tu porción con mocochinchi casero helado o refresco de linaza tradicional.
+        </p>
+</div>
+<!-- Pricing Comparison -->
+<div class="flex items-baseline gap-3 my-1">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-bold">Bs. 32</span>
+<span class="font-body-lg text-body-lg text-outline line-through">Bs. 38</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wide">¡Solo por hoy!</span>
+</div>
+<button class="w-full min-h-[48px] rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-md hover:bg-primary-container active:scale-95 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">loyalty</span>
+        Aprovechar promoción
+      </button>
+</div>
+</section>
+<!-- OPINIONES DE CLIENTES -->
+<section class="w-full px-margin-mobile py-space-md flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-6 h-0.5 bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-widest">Testimonios Reales</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Lo que dicen nuestros comensales</h2>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Testimonio 1 -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-on-secondary-fixed text-label-md">
+              CM
+            </div>
+<div>
+<p class="font-title-dish text-[15px] font-bold text-on-surface leading-tight">Carlos M.</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Verificado</span>
+</div>
+</div>
+<div class="flex text-secondary text-sm">
+            ⭐⭐⭐⭐⭐
+          </div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+          "El fideo salteado estaba increíble. La porción es bastante grande."
+        </p>
+</div>
+<!-- Testimonio 2 -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-on-primary-fixed text-label-md">
+              VR
+            </div>
+<div>
+<p class="font-title-dish text-[15px] font-bold text-on-surface leading-tight">Valeria R.</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Verificado</span>
+</div>
+</div>
+<div class="flex text-secondary text-sm">
+            ⭐⭐⭐⭐⭐
+          </div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+          "Comida muy rica y preparada al momento."
+        </p>
+</div>
+<!-- Testimonio 3 -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-on-tertiary-fixed text-label-md">
+              FG
+            </div>
+<div>
+<p class="font-title-dish text-[15px] font-bold text-on-surface leading-tight">Fernando G.</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cliente Frecuente</span>
+</div>
+</div>
+<div class="flex text-secondary text-sm">
+            ⭐⭐⭐⭐⭐
+          </div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+          "El pique macho estuvo excelente."
+        </p>
+</div>
+</div>
+</section>
+<!-- CONTACTO Y UBICACIÓN -->
+<section class="w-full px-margin-mobile py-space-md" id="contacto">
+<div class="w-full rounded-xl bg-surface-container-lowest p-space-md shadow-[0_8px_24px_rgba(36,25,22,0.08)] flex flex-col gap-space-sm">
+<div class="flex items-center gap-3">
+<img alt="Logo Sabor de la Llajta" class="w-12 h-12 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMHjzcU0eoCvj4XLcG8_Fb7uc8tMzNXyUJ6QrpUaBqNre_LKfqsnt_-BB-5H6vXp560VPGbvFZfyeheO0N8fzcvjoSVpah8pLJUGQC1EcXP9He6U1z5Sjal_YrUnhuXjFDa3BRV4Rot-Wa3V5rPwAB9rvrXUEFduGGoG5ibKB9GCEb3ElJG_QQxsEZv6JdirE7teEskP6KU43PWyiXrYfMHA5rjE-Wlu06BRTungE">
+<div>
+<h2 class="font-title-dish text-[20px] text-on-surface font-bold leading-tight">Sabor de la Llajta</h2>
+<span class="font-label-sm text-label-sm text-primary font-bold">Tradición boliviana en cada bocado</span>
+</div>
+</div>
+<!-- Static Map Container -->
+<div class="w-full h-40 bg-cover bg-center rounded-lg shadow-inner relative flex items-end p-2.5" data-location="Santa Cruz de la Sierra, Bolivia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1wsx2yURywSHc8L6aXOmbPXFzHwM13Jz57cxaXkqqJPBu1L093h9GgcIgMXeU5yftLxUGQxh14rqFWTjuhqgtkwyBpxdVtghuTDDjrsXLa09N53wu5tayr15KhghbA5C2bpkbtue1fOUo9g1Yyk53b1r9ucroo9l7U87z1HfmgTvs1uqqcqUI2tQFv3RrMEmf655Xp_JUaEmTTWype_v79BuoS8ovYXuEn6B7ESI')">
+<div class="bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">pin_drop</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">Santa Cruz de la Sierra, Bolivia</span>
+</div>
+</div>
+<!-- Info Details -->
+<div class="flex flex-col gap-2.5 pt-1">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[20px] flex-shrink-0 mt-0.5">location_on</span>
+<p class="font-body-md text-body-md text-on-surface">Av. Principal y Tercer Anillo, Santa Cruz de la Sierra, Bolivia</p>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[20px] flex-shrink-0">call</span>
+<a class="font-price-tag text-price-tag text-on-surface hover:text-primary transition-colors" href="tel:+59170012345">+591 700-12345</a>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px] flex-shrink-0 mt-0.5">schedule</span>
+<div class="flex flex-col font-body-md text-body-md text-on-surface-variant">
+<span class="font-bold text-on-surface">Martes a Domingo:</span>
+<span class="">11:30 AM – 16:00 PM</span>
+<span class="">18:30 PM – 22:30 PM</span>
+</div>
+</div>
+</div>
+<!-- Action Button -->
+<a class="w-full min-h-[46px] rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md uppercase tracking-wider flex items-center justify-center gap-2 active:scale-95 transition-all text-center" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+        Cómo llegar
+      </a>
+</div>
+</section>
+<!-- FOOTER COMPLETO -->
+<footer class="w-full bg-surface-container-highest text-on-surface-variant px-margin-mobile pt-space-lg pb-space-md flex flex-col gap-space-md mt-space-sm rounded-t-2xl shadow-inner">
+<!-- Brand Info -->
+<div class="flex flex-col items-center text-center gap-2">
+<img alt="Logo Sabor de la Llajta" class="w-16 h-16 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMHjzcU0eoCvj4XLcG8_Fb7uc8tMzNXyUJ6QrpUaBqNre_LKfqsnt_-BB-5H6vXp560VPGbvFZfyeheO0N8fzcvjoSVpah8pLJUGQC1EcXP9He6U1z5Sjal_YrUnhuXjFDa3BRV4Rot-Wa3V5rPwAB9rvrXUEFduGGoG5ibKB9GCEb3ElJG_QQxsEZv6JdirE7teEskP6KU43PWyiXrYfMHA5rjE-Wlu06BRTungE">
+<h3 class="font-title-dish text-title-dish text-on-surface font-bold">Sabor de la Llajta</h3>
+<p class="font-label-md text-label-md text-primary font-bold tracking-wide">Tradición boliviana en cada bocado</p>
+<p class="font-body-md text-label-sm max-w-xs text-on-surface-variant">
+        Llevamos el alma culinaria de Cochabamba a tu mesa, con la autenticidad y el cariño de nuestra tierra.
+      </p>
+</div>
+<!-- Quick Navigation Links -->
+<div class="flex justify-center flex-wrap gap-x-5 gap-y-2 font-label-md text-label-md">
+<a class="text-on-surface hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-on-surface hover:text-primary transition-colors" href="#menu-seccion">Menú</a>
+<a class="text-on-surface hover:text-primary transition-colors" href="#nosotros">Nosotros</a>
+<a class="text-on-surface hover:text-primary transition-colors" href="#contacto">Contacto</a>
+<a class="text-on-surface hover:text-primary transition-colors" href="#reservas">Reservas</a>
+</div>
+<!-- Social Media Links -->
+<div class="flex justify-center items-center gap-3">
+<a aria-label="Facebook" class="w-10 h-10 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:text-primary active:scale-90 transition-all" href="#">
+<span class="font-title-dish text-lg font-bold">f</span>
+</a>
+<a aria-label="Instagram" class="w-10 h-10 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:text-primary active:scale-90 transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</a>
+<a aria-label="TikTok" class="w-10 h-10 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:text-primary active:scale-90 transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">music_note</span>
+</a>
+<a aria-label="WhatsApp" class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shadow-sm active:scale-90 transition-all" href="https://wa.me/59170012345">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</a>
+</div>
+<!-- Copyright -->
+<div class="pt-4 border-t border-outline-variant/30 text-center font-label-sm text-label-sm text-outline">
+<p class="">© 2025 Sabor de la Llajta. Todos los derechos reservados.</p>
+<p class="mt-0.5">Santa Cruz, Bolivia.</p>
+</div>
+</footer>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-4px_24px_rgba(36,25,22,0.08)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-20 px-gutter-sm max-w-md mx-auto"><a aria-current="page" class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center gap-0.5 transition-colors text-primary font-bold" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">cottage</span><span class="font-label-sm text-label-sm">Inicio</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="menu" href="#"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm">Menú</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="nosotros" href="#"><span class="material-symbols-outlined text-[22px]">soup_kitchen</span><span class="font-label-sm text-label-sm">Nosotros</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="contacto" href="#"><span class="material-symbols-outlined text-[22px]">call</span><span class="font-label-sm text-label-sm">Contacto</span></a><a class="min-h-[44px] px-3 py-1.5 flex items-center gap-1.5 rounded-full bg-tertiary text-on-tertiary font-label-md text-label-md shadow-sm active:scale-95 transition-transform" data-path="pedidos-rapidos" href="#"><span class="material-symbols-outlined text-[18px]">chat</span><span class="">WhatsApp</span></a></div></nav>
+
+</body></html>
